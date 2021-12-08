@@ -7,27 +7,101 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Псков</title>
     <link rel="stylesheet" href="/css/main.min.css">
+    <link rel="stylesheet" href="/css/animate.css">
 </head>
 <body>
     <header>
-        <div class="head-block">
-            <img src="img/Лого.jpg" alt="Герб Псковоской области" class="logo-img">
-            <span class="logo-txt">Псковская область</span>
-            <nav class="head-nav">
-                <ul>
-                    <li><a href="" onclick="return slowScroll('.header-main')">Псков</a></li>
-                    <li><a href="" onclick="return slowScroll('.features')">Пушкинские горы</a></li>
-                    <li><a href="">Изборск</a></li>
-                    <li><a href="">Мальская долина</a></li>
-                </ul>
-            </nav>
+        <div class="container">
+            <div class="head-cont">
+                <div class="header-block">
+                    <div class="logo">
+                        <img src="img/logo.svg" alt="Герб Псковской области">
+                        <p>ПСКОВСКАЯ ОБЛАСТЬ</p>
+                    </div>
+                    <nav class="header-nav">
+                        <ul class="header-list">
+                            <li class="header-item">
+                                <a class="header-link" href="" onclick="return slowScroll('.pskov-info')">Псков</a>
+                            </li>
+                            <li class="header-item">
+                                <a class="header-link" href="">Пушкинские горы</a>
+                            </li>
+                            <li class="header-item">
+                                <a class="header-link" href="">Изборск</a>
+                            </li>
+                            <li class="header-item">
+                                <a class="header-link" href="">Мальская долина</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header-main">
+                    <div class="info">
+                        <h1 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1s">Открой для себя Псковскую область</h1>
+                        <p class="wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1s">Россия начинается здесь.</p>
+                        <button type="button" class="learn-more wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="1s">Начать путешествие</button>
+                    </div>
+                    <div class="header-main-img">
+                        <div class="borderfck"></div>
+                        <img src="img/Ворота.jpg" alt="Вход в Псковскую область">
+                    </div>
+                </div>
+                <div class="head-stat">
+                    <div class="stat-numbers">
+                        <p>55 399</p>
+                        <p>620 249</p>
+                        <p>10</p>
+                    </div>
+                    <div class="stat-line">
+                        <p>.</p>
+                        <p>.</p>
+                        <p>.</p>
+                    </div>
+                    <div class="stat-p">
+                        <div class="stat-p-txt">
+                            <span>км²</span>
+                            <p>Площадь</p>
+                        </div>
+                        <div class="stat-p-txt">
+                            <span>человек</span>
+                            <p>Население</p>
+                        </div>
+                        <div class="stat-p-txt">
+                            <span>памятников</span>
+                            <p>Всемирного <br>наследия <br>ЮНЕСКО</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
-    <main>
-
-    </main>
+    <section class="pskov-image">
+        <img src="img/stat.jpg" alt="Фото Пскова">
+    </section>
+    <section class="pskov-info">
+        <div class="container">
+            <div class="pskov-info-cont">
+                <img src="img/Псков.jpg" alt="Псков">
+                <div class="pskov-info-txt">
+                    <div class="pskov-info-txt-p">
+                        <p>
+                            Город на северо-западе России. Впервые упоминается в летописях 903 года.
+                            Стоит на берегу реки Великой, а главным источником притяжения туристов является Псковский Кремль.
+                        </p>
+                    </div>
+                    <div class="pskov-info-txt-p">
+                        <p>Лучшим временем для посещения Пскова, несмотря на дождливое лето, является период с мая по сентябрь.
+                            Возможно, стоит приехать сюда в апреле и октябре, но нужно смотреть по погоде.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer>
 
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/js/wow.min.js"></script>
+    <script src="/js/main.js"> </script>
 </body>
 </html>
