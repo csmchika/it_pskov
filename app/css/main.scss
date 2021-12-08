@@ -193,30 +193,56 @@ header {
   }
 }
 
-.pskov-image {
+.section-image {
   height: 440px;
-  img {
-    width: 100%;
-    height: inherit;
+  .center-h {
+    padding: 187px 0 187px 0;
+    h2 {
+      text-align: center;
+      font-weight: bold;
+      font-size: 48px;
+      text-transform: uppercase;
+      text-shadow: 1px 3px 7px rgba(0, 0, 0, 0.25);
+    }
   }
 }
-
-.pskov-info {
-
-  .pskov-info-cont {
+.pskov-bg {
+  background: url("/img/stat.jpg") no-repeat;
+  background-size: 100%;
+}
+.pushkin-bg {
+  background: url("/img/pushinmoun.jpg") no-repeat;
+  background-size: 100%;
+}
+.izborsk-bg {
+  background: url("/img/Изборск.jpg") no-repeat;
+  background-size: 100%;
+}
+.mal-bg {
+  background: url("/img/Мальская_долина.jpg") no-repeat;
+  background-size: 100%;
+}
+.section-info {
+  img {
+    width: 630px;
+    height: 416px;
+  }
+  h3 {
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  .section-info-cont {
     padding: 70px 0;
     display: grid;
     grid-template-columns: 630px 490px;
     gap: 20px;
-    img {
-      width: 630px;
-      height: 416px;
-    }
-    .pskov-info-txt {
+    .section-info-txt {
       display: flex;
       flex-direction: column;
       gap: 20px;
-      .pskov-info-txt-p {
+      .section-info-txt-p {
         background: #F5C979;
         box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.25);
         border-radius: 0 15px 15px 15px;
@@ -225,10 +251,45 @@ header {
         color: #000000;
         padding: 22px 25px;
 
-        &:last-child {
-          padding-left: 16px;
-          grid-area: pskov-info-second;
-        }
+      }
+    }
+  }
+  .rever {
+    grid-template-columns: 490px 630px;
+    .section-info-txt {
+      .section-info-txt-p {
+        background: #F5C979;
+        box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.25);
+        border-radius: 15px 0 15px 15px;
+        font-size: 20px;
+        text-align: left;
+        color: #000000;
+        padding: 22px 25px;
+
+      }
+    }
+  }
+}
+
+footer {
+  background: #000000;
+  .footer-block {
+    padding: 125px 0;
+
+    @extend .flex;
+    align-content: flex-start;
+    .arrow {
+      margin-left: 85px;
+      margin-right: 285px;
+    }
+
+    .author {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+
+      p {
+        text-align: right;
       }
     }
   }

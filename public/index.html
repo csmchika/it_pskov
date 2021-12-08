@@ -21,16 +21,16 @@
                     <nav class="header-nav">
                         <ul class="header-list">
                             <li class="header-item">
-                                <a class="header-link" href="" onclick="return slowScroll('.pskov-info')">Псков</a>
+                                <a class="header-link" href="" onclick="return slowScroll('.pskov-bg')">Псков</a>
                             </li>
                             <li class="header-item">
-                                <a class="header-link" href="">Пушкинские горы</a>
+                                <a class="header-link" href="" onclick="return slowScroll('.pushkin-bg')">Пушкинские горы</a>
                             </li>
                             <li class="header-item">
-                                <a class="header-link" href="">Изборск</a>
+                                <a class="header-link" href="" onclick="return slowScroll('.izborsk-bg')">Изборск</a>
                             </li>
                             <li class="header-item">
-                                <a class="header-link" href="">Мальская долина</a>
+                                <a class="header-link" href="" onclick="return slowScroll('.mal-bg')">Мальская долина</a>
                             </li>
                         </ul>
                     </nav>
@@ -39,25 +39,25 @@
                     <div class="info">
                         <h1 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1s">Открой для себя Псковскую область</h1>
                         <p class="wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1s">Россия начинается здесь.</p>
-                        <button type="button" class="learn-more wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="1s">Начать путешествие</button>
+                        <button type="button" class="learn-more wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="1s">Начать путешествие</button>
                     </div>
-                    <div class="header-main-img">
+                    <div class="header-main-img wow fadeInRight" data-wow-delay="0.7s" data-wow-duration="1s">
                         <div class="borderfck"></div>
                         <img src="img/Ворота.jpg" alt="Вход в Псковскую область">
                     </div>
                 </div>
                 <div class="head-stat">
-                    <div class="stat-numbers">
+                    <div class="stat-numbers wow fadeInUp" data-wow-delay="2s" data-wow-duration="2s">
                         <p>55 399</p>
                         <p>620 249</p>
                         <p>10</p>
                     </div>
-                    <div class="stat-line">
+                    <div class="stat-line wow fadeInUp" data-wow-delay="1s" data-wow-duration="2s">
                         <p>.</p>
                         <p>.</p>
                         <p>.</p>
                     </div>
-                    <div class="stat-p">
+                    <div class="stat-p wow fadeInUp" data-wow-delay="0.7s" data-wow-duration="2s">
                         <div class="stat-p-txt">
                             <span>км²</span>
                             <p>Площадь</p>
@@ -75,21 +75,23 @@
             </div>
         </div>
     </header>
-    <section class="pskov-image">
-        <img src="img/stat.jpg" alt="Фото Пскова">
-    </section>
-    <section class="pskov-info">
+    <div class="section-image pskov-bg">
+        <div class="center-h">
+            <h2>Псков</h2>
+        </div>
+    </div>
+    <section class="section-info">
         <div class="container">
-            <div class="pskov-info-cont">
-                <img src="img/Псков.jpg" alt="Псков">
-                <div class="pskov-info-txt">
-                    <div class="pskov-info-txt-p">
+            <div class="section-info-cont">
+                <img src="img/Псков.jpg" alt="Псков" class="wow fadeInUpBig" data-wow-delay="0.5s" data-wow-duration="1s">
+                <div class="section-info-txt wow fadeInRight" data-wow-delay="0.7s" data-wow-duration="1s">
+                    <div class="section-info-txt-p">
                         <p>
                             Город на северо-западе России. Впервые упоминается в летописях 903 года.
                             Стоит на берегу реки Великой, а главным источником притяжения туристов является Псковский Кремль.
                         </p>
                     </div>
-                    <div class="pskov-info-txt-p">
+                    <div class="section-info-txt-p">
                         <p>Лучшим временем для посещения Пскова, несмотря на дождливое лето, является период с мая по сентябрь.
                             Возможно, стоит приехать сюда в апреле и октябре, но нужно смотреть по погоде.</p>
                     </div>
@@ -97,8 +99,115 @@
             </div>
         </div>
     </section>
+    <div class="section-image pushkin-bg">
+        <div class="center-h">
+            <h2>Пушкинские горы</h2>
+        </div>
+    </div>
+    <section class="section-info">
+        <div class="container">
+            <div class="section-info-cont" style="padding-bottom: 0">
+                <img src="img/Михайловское.jpg" alt="Михайловское" class="wow fadeInUpBig" data-wow-delay="0.5s" data-wow-duration="1s">
+                <div class="section-info-txt wow fadeInRight" data-wow-delay="0.7s" data-wow-duration="1s">
+                    <div class="section-info-txt-p">
+                        <h3>
+                            Михайловское. пушкинские горы.
+                        </h3>
+                    </div>
+                    <div class="section-info-txt-p">
+                        <p>
+                            Музей-заповедник Александра Сергеевича Пушкина, основанный в 1922 году.
+                            Родовое имение его матери, поэтическая родина и место духовного становления поэта
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-info">
+        <div class="container">
+            <div class="section-info-cont rever">
+                <div class="section-info-txt wow fadeInLeft" data-wow-delay="0.7s" data-wow-duration="1s">
+                    <div class="section-info-txt-p">
+                        <h3>
+                            Тригорское. Пушкинские горы.
+                        </h3>
+                    </div>
+                    <div class="section-info-txt-p">
+                        <p>
+                            Музей-усадьба помещиков Осиповых-Вульф. Свое название имение получило
+                            из-за характерного ландшафта — оно находится в районе трех широких холмов.
+                        </p>
+                    </div>
+                </div>
+                <img src="img/Тригорское.png" alt="Тригорское" class="wow fadeInDownBig" data-wow-delay="0.5s" data-wow-duration="1s">
+            </div>
+        </div>
+    </section>
+    <div class="section-image izborsk-bg">
+        <div class="center-h">
+            <h2>Изборск</h2>
+        </div>
+    </div>
+    <section class="section-info">
+        <div class="container">
+            <div class="section-info-cont">
+                <img src="img/izborskf.jpg" alt="Изборск" class="wow fadeInUpBig" data-wow-delay="0.5s" data-wow-duration="1s">
+                <div class="section-info-txt wow fadeInRight" data-wow-delay="0.7s" data-wow-duration="1s">
+                    <div class="section-info-txt-p">
+                        <p>
+                            Один из древнейших русских городов, упоминаемый начальным летописцем как центр
+                            кривичского населения. Согласно легенде, основан в  XVII веке
+                        </p>
+                    </div>
+                    <div class="section-info-txt-p">
+                        <p>
+                            На территории Изборска находятся такие достопримечательности как Изборская крепость,
+                            Труворово городище, Никольский собор, Словенские ключи, а также гостиничный комплекс
+                            Изборск, который был недавно восстановлен
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="section-image mal-bg">
+        <div class="center-h">
+            <h2>Мальская долина</h2>
+        </div>
+    </div>
+    <section class="section-info">
+        <div class="container">
+            <div class="section-info-cont rever" style="padding-bottom: 100px">
+                <div class="section-info-txt wow fadeInLeft" data-wow-delay="0.7s" data-wow-duration="1s">
+                    <div class="section-info-txt-p">
+                        <p>
+                            Удивительное и очень живописное место, имеющее официальный статус памятника природы.
+                            Славится большим разнообразием ландшафтов, которые оставил после себя ледник,
+                            прошедший здесь 10-12 тысяч лет назад
+                        </p>
+                    </div>
+                </div>
+                <img src="img/mal_dol.jpg" alt="Мальская долина" class="wow fadeInDownBig" data-wow-delay="0.5s" data-wow-duration="1s">
+            </div>
+        </div>
+    </section>
     <footer>
-
+        <div class="container">
+            <div class="footer-block">
+                <div class="copy">
+                    © 2021 pskovguide
+                </div>
+                <div class="arrow">
+                    <a href="/" onclick="return slowScroll('.header-block')"><img src="img/arr.svg" alt="Подняться вверх"></a>
+                </div>
+                <div class="author">
+                    <p>Не является коммерческим проектом.</p>
+                    <p>Фото: https://vk.com/to_chto_ne_vyrazit_slovami</p>
+                    <p>pskovguide@bk.ru</p>
+                </div>
+            </div>
+        </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="/js/wow.min.js"></script>
